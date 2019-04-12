@@ -1,6 +1,8 @@
 const MiniCssExtractPlugin = require('mini-css-extract-plugin');
 const HtmlWebpackPlugin = require('html-webpack-plugin');
 const autoprefixer = require('autoprefixer');
+const CopyPlugin = require('copy-webpack-plugin');
+const ImageminPlugin = require('imagemin-webpack-plugin').default;
 
 const env = process.env.NODE_ENV || 'development';
 // set to 'production' or 'development' in your env
@@ -69,5 +71,9 @@ module.exports = {
       template: './src/index.html',
       filename: './index.html',
     }),
+    new CopyPlugin([{
+      from: './src/img',
+    }]),
+    new ImageminPlugin({ test: /\.(jpe?g|png|gif|svg)$/i }),
   ],
 };
