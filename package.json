@@ -1,8 +1,8 @@
 {
-  "name": "starterpack-shreyas-v-agnihotri",
+  "name": "react-starterpack",
   "version": "1.0.0",
   "main": "src/index.js",
-  "repository": "https://github.com/shreyas-v-agnihotri/starterpack-shreyas-v-agnihotri.git",
+  "repository": "https://github.com/shreyas-v-agnihotri/react-starterpack.git",
   "author": "Shreyas Agnihotri <shreyas.v.agnihotri@gmail.com>",
   "license": "MIT",
   "scripts": {
