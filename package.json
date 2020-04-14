@@ -2,7 +2,7 @@
   "name": "starterpack-shreyas-v-agnihotri",
   "version": "1.0.0",
   "main": "src/index.js",
-  "repository": "https://github.com/dartmouth-cs52-19S/starterpack-shreyas-v-agnihotri.git",
+  "repository": "https://github.com/shreyas-v-agnihotri/starterpack-shreyas-v-agnihotri.git",
   "author": "Shreyas Agnihotri <shreyas.v.agnihotri@gmail.com>",
   "license": "MIT",
   "scripts": {

@@ -1,4 +1,4 @@
-# React StarterPack
+# React Starter-Pack
 
 This is a baseline configuration for creating complex React sites with module dependencies
 
@@ -13,11 +13,15 @@ This starterpack was built in Tim Tregubov's Web Development class (http://cs52.
 
 ## Usage
 
-```yarn start```
+```
+yarn start
+```
 
 Creates and runs the web app locally (localhost)
 
-```yarn deploy```
+```
+yarn deploy
+```
 
 Deploys the app to the surge URL specified in the `package.json` file
 
